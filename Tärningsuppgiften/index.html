@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tärningsspel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tärningsspel</h1>
+        <div class="players">
+            <div id="player1" class="player">
+                <h2>Spelare 1</h2>
+                <p>Total Poäng: <span id="score1">0</span></p>
+                <p>Löpande Poäng: <span id="current1">0</span></p>
+            </div>
+            <div id="player2" class="player">
+                <h2>Spelare 2</h2>
+                <p>Total Poäng: <span id="score2">0</span></p>
+                <p>Löpande Poäng: <span id="current2">0</span></p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="rollDice">Kasta Tärningen</button>
+            <button id="holdScore">Behåll Poängen</button>
+            <p>Tärningsvärde: <span id="diceResult">-</span></p>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
